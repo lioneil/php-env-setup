@@ -1,4 +1,4 @@
-Lamp Server Installation:
+**Lamp Server Installation:**
   ```bash
   sudo apt-get update & sudo apt-get upgrade
   sudo apt-get install lamp-server^
@@ -21,13 +21,13 @@ Lamp Server Installation:
   > select `apache`, if prompted
   ```
 
-  Restart Services:
+  **Restart Services:**
   ```bash
   sudo service apache2 restart
   sudo service mysql restart
   ```
 
-  Add Virtual Hosts:
+  **Add Virtual Hosts:**
   ```bash
   mkdir ~/Projects
   # Backup the default 'html' folder
@@ -36,26 +36,30 @@ Lamp Server Installation:
   ```
   If all goes well, remove the `html.bak` folder.
 
-  Install NodeJS
+  **Install NodeJS**
   ```
   sudo apt install nodejs
   sudo apt install npm
   ```
 
-  Install Composer
+  **Install Composer**
   ```
   https://getcomposer.org/download/
   ```
 
 
-OS Misc:
+**OS Misc:**
+
   - Go to Ubuntu Settings > Keyboard Shortcuts and Set "Home folder" shortcut to "SUPER+E"
 
-Bash Terminal Setup:
+**Bash Terminal Setup:**
+
   - Download [.bashrc](./.bashrc)
 
-Apps:
-  Dropbox
-  Sublime Text 3
-    `ln -s ~/Dropbox/path/to/Backup/Sublime/Packages/User ~/.config/sublime-text-3/Packages/User`
-  Atom Editor
+**Sublime Packages:**
+
+  - If Dropbox backup is available:
+    ```bash
+    ln -s ~/Dropbox/path/to/Backup/Sublime/Packages/User ~/.config/sublime-text-3/Packages/User
+    ```
+  - See the list of packages recommended in [Package Controler.sublime-settings](./Sublime/Packages/User/Package Control.sublime-settings).
