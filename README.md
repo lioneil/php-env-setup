@@ -62,4 +62,4 @@
     ```bash
     ln -s ~/Dropbox/path/to/Backup/Sublime/Packages/User ~/.config/sublime-text-3/Packages/User
     ```
-  - See the list of packages recommended in [Package Controler.sublime-settings](./Sublime/Packages/User/Package Control.sublime-settings).
+  - See the list of packages recommended in [Package Controler.sublime-settings](./Sublime/Packages/User/Package%20Control.sublime-settings).
