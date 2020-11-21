@@ -130,4 +130,5 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 # Load global NPM packages
 export PATH="$PATH:$HOME/.npm/bin"
+export NVM_DIR="$HOME/.nvm"
 
