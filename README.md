@@ -41,6 +41,14 @@
   sudo apt install nodejs
   sudo apt install npm
   ```
+  
+  [Setup Global Prefix path](http://npm.github.io/installation-setup-docs/installing/a-note-on-permissions.html):
+  
+  ```
+  mkdir ~/.npm
+  npm config set prefix '~/.npm'
+  ```
+  
 
   **Install Composer**
   ```
