@@ -1,0 +1,23 @@
+<snippet>
+<content><![CDATA[
+export const state = {$1}
+
+export const getters = {}
+
+export const mutations = {}
+
+export const actions = {}
+
+export default {
+  namespaced: true,
+  state,
+  getters,
+  mutations,
+  actions,
+}
+
+]]></content>
+<tabTrigger>vuex</tabTrigger>
+<description>Scaffold Vuex Store module</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

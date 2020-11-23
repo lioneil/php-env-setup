@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+import${1: $2 from} '$3'
+]]></content>
+<tabTrigger>import</tabTrigger>
+<description>Javascript import statement</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, meta.export.js, meta.object-literal.js, meta.object-literal.js, meta.function.js, meta.block.js, meta.group.js, string.quoted.single.js, punctuation.definition.string.end.js</scope>
+</snippet>

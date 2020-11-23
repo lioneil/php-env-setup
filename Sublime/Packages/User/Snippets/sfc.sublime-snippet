@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+<template>
+  <div>$1</div>
+</template>
+
+<script>
+export default {$2}
+</script>
+
+]]></content>
+<tabTrigger>sfc</tabTrigger>
+<description>Snippet for Vue Single File Components</description>
+<scope>text.html.vue</scope>
+</snippet>

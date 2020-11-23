@@ -1,9 +1,5 @@
 {
 	"bootstrapped": true,
-	"channels":
-	[
-		"https://erhan.in/channel_v3.json"
-	],
 	"in_process_packages":
 	[
 	],
@@ -11,10 +7,9 @@
 	[
 		"A File Icon",
 		"AdvancedNewFile",
-		"ApacheConf",
 		"ayu",
 		"Blade Snippets",
-		"Color Highlighter",
+		"Color Highlight",
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
@@ -22,16 +17,9 @@
 		"FavoriteFiles",
 		"GitGutter",
 		"HTMLBeautify",
-		"Laravel Blade Highlighter",
-		"Laravel Blade Spacer",
 		"MarkdownPreview",
 		"Material Theme",
 		"Package Control",
-		"PackageResourceViewer",
-		"PHP Companion",
-		"PHP CS Fixer",
-		"Phpcs",
-		"PHPUnitKit",
 		"PlainTasks",
 		"Pretty JSON",
 		"ProjectManager",
@@ -39,9 +27,8 @@
 		"SideBarEnhancements",
 		"SnippetMaker",
 		"SortBy",
-		"Stylus",
 		"SublimeLinter",
-		"SublimeLinter-phpcs",
+		"SublimeLinter-contrib-jslint",
 		"Terminal",
 		"Terminus",
 		"Vue Syntax Highlight"
